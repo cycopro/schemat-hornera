@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//jjjjj//
 namespace schemat_hornera
 {
     public partial class Form1 : Form
@@ -26,6 +25,7 @@ namespace schemat_hornera
         {
             int p = Convert.ToInt32(podstawa.Text);
             string s = liczba.Text;
+            s = s.ToUpper();
             int x;
             int y =0;
 

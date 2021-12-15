@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//jjjjj//
 namespace schemat_hornera
 {
     public partial class Form1 : Form
@@ -47,6 +47,11 @@ namespace schemat_hornera
         private void TextBox2_MouseClick(object sender, MouseEventArgs e)
         {
             liczba.Text = "";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
